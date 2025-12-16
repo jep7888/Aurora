@@ -1,0 +1,10 @@
+[16-Dec-2025 14:06:48 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ecommerce.password_resets' doesn't exist in C:\xampp\htdocs\Ecommerce\send_reset_email.php:43
+Stack trace:
+#0 C:\xampp\htdocs\Ecommerce\send_reset_email.php(43): mysqli->query('DELETE FROM pas...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Ecommerce\send_reset_email.php on line 43
+[16-Dec-2025 14:06:53 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'ecommerce.password_resets' doesn't exist in C:\xampp\htdocs\Ecommerce\send_reset_email.php:43
+Stack trace:
+#0 C:\xampp\htdocs\Ecommerce\send_reset_email.php(43): mysqli->query('DELETE FROM pas...')
+#1 {main}
+  thrown in C:\xampp\htdocs\Ecommerce\send_reset_email.php on line 43
